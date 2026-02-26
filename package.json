@@ -1,0 +1,29 @@
+{
+  "name": "inktree-monorepo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm dev:inktree-web",
+    "dev:inktree-web": "pnpm --filter inktree-web dev",
+    "dev:cms": "pnpm --filter cms dev",
+    "dev:aarondoesink": "pnpm --filter aarondoesink dev",
+
+    "build": "pnpm --recursive --aggregate-output build",
+    "lint": "pnpm --recursive --aggregate-output lint",
+    "test": "pnpm --recursive --aggregate-output test",
+    "check": "pnpm --recursive --aggregate-output check",
+    "format": "pnpm --recursive --aggregate-output format",
+    "format:check": "pnpm --recursive --aggregate-output format:check"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "eslint": "^9.0.0",
+    "prettier": "^3.3.0",
+    "vitest": "^2.0.0"
+  },
+  "engines": {
+    "node": "24.x",
+    "pnpm": "10.28.0"
+  },
+  "packageManager": "pnpm@10.28.0"
+}
