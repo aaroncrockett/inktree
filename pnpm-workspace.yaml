@@ -1,8 +1,5 @@
 packages:
   - "apps/*"
   - "customer-sites/*"
-  - "packages/config"
-  - "packages/core/*"
-  - "packages/data"
   - "packages/ui/*"
   - "packages/utils"
