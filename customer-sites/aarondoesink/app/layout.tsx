@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { defaultTheme } from "@inktree/ui-react/tailwind.config";
-
-console.log(defaultTheme);
+import LayoutWrapper from "./LayoutWrapper";
 
 export const metadata: Metadata = {
   title: "Aaron Does Ink",
@@ -16,7 +14,9 @@ export default function RootLayout({
 }>) {
   return (
     <html data-theme="adi" lang="en">
-      <body className={`antialiased`}>{children}</body>
+      <body className={`antialiased`}>
+        {<LayoutWrapper>{children}</LayoutWrapper>}
+      </body>
     </html>
   );
 }
