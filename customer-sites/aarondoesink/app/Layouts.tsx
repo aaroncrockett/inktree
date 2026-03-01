@@ -1,6 +1,6 @@
 "use client";
 import { useMatchMediaSize } from "@/hooks";
-import { defaultTheme } from "@inktree/ui-react/tailwind.config";
+import { defaultTheme } from "../tailwind.config";
 import LayoutDT from "./LayoutDT";
 import LayoutMobile from "./LayoutMobile";
 
