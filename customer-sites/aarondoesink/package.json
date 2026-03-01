@@ -15,11 +15,15 @@
     "react-dom": "19.2.3"
   },
   "devDependencies": {
+    "tailwindcss": "^4",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
-    "typescript": "^5"
+    "typescript": "^5",
+    "@skeletonlabs/skeleton": "^4.12.1",
+    "@skeletonlabs/skeleton-react": "^4.12.1"
   }
 }

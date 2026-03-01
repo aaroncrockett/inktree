@@ -1,2 +1,4 @@
-@import "@inktree/ui-react/global.css";
+@import "tailwindcss";
+@import "@skeletonlabs/skeleton";
+@import "@skeletonlabs/skeleton-react";
 @import "./adi.css";
